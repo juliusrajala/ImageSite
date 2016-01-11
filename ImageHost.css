@@ -1,0 +1,38 @@
+/* CSS declarations go here */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.siteContent{
+  margin-top: 10vh;
+  width: 60vw;
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 800px;
+  background-color: yellow;
+}
+
+.Images{
+  background-color: blue;
+  float: left;
+  width: 100%;
+  height: 40vh;
+  margin-right: auto;
+  margin-left: auto;
+  display: inline-block;
+
+}
+
+.dropZone{
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  height: 100px;
+  background-color: red;
+  display: inline-block;
+}
+
+.dropZone:hover{
+  background-color: green;
+}
